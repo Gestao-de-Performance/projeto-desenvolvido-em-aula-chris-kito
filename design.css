@@ -1,6 +1,9 @@
 :root{
+  --white-300: #FFFFFF;
   --black-200: #212121;
-  --purple-200: #8733ff
+  --purple-100: #8733ff;
+  --purple-200: #A369FF;
+  --purple-500: #5A13B4;
 }
 
 .logosite{
@@ -12,8 +15,11 @@ body{
   margin: 0;
   padding: 0;
 }
+*{
+  font-family: "Montserrat", sans-serif;
+}
 .backgroundHeaderColor{
-  background-color: var(--purple-200);
+  background-color: var(--purple-100);
 
 }
 .containerHeader{
@@ -22,3 +28,57 @@ body{
   justify-content: space-between;
   margin: 0 10%;
 }
+.buttonHeader{
+  background-color: var(--purple-500);
+  color: var(--white-300);
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2 rem;
+  border-radius: 15px;
+  margin: 10px;
+  transition: background-color 0.5 ease;
+}
+.buttonHeader:hover{
+  background-color: var(--purple-200);
+  transition: background-color 0.5 ease;
+}
+#apresentacao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2% 10%;
+  gap: 40px;
+}
+#apresentacao > div {
+  width: 750px;
+}
+#apresentacao h1 {
+  font-size: 2.5rem;
+  color: var(--white-300);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#apresentacao p {
+  font-size: 1.2rem;
+  color: var(--white-300);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
